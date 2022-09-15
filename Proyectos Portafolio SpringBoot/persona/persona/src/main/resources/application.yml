@@ -1,0 +1,17 @@
+
+spring:
+  jpa:
+    generate-ddl: true
+    show-sql: true
+  spring:
+    mvc:
+      pathmatch:
+        matching-strategy: ant_path_matcher
+
+    hibernate:
+      ddl-auto: update
+  datasource:
+    plataform: mysql
+    url: jdbc:mysql://localhost:3306/persona
+    username: root
+    password: toor
