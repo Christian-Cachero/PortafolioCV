@@ -1,4 +1,6 @@
-
+server:
+  servlet:
+    context-path: /persona
 spring:
   jpa:
     generate-ddl: true
